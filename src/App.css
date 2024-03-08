@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  align-items: center;
+  gap: 10px;
+}
+.Block1,
+.Block2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 330px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: rgba(43, 45, 46, 0.893);
+  margin-top: 20px;
+  font-size: 18px;
+  outline:1px solid aqua;
+}
+
+
+
+.TabloContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+width:100%;
+ height: 100px;
+ text-align: center;
+
+
+ padding: 10px;
+ font-size: 20px;
+ border-radius: 20px;
+}
+
+.TabloStyled,
+.TabloRedStyled {
+  border: 1px solid aqua;
+  color:aqua;
+ padding: 30px 5px;
+  border-radius: 10px;
+  width: 95%;
+  font-size: 24px;
+}
+
+.TabloRedStyled {
+  color:red;
+ }
+
+ .BtnContent {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  padding: 15px 10px;
+  
+ }
+
+.Btn {
+ width: 80px;
+ padding: 10px;
+ border-radius: 10px;
+ font-size: 15px;
+ font-weight: bold;
+ border: none;
+ background-color: aqua;
+}
+
+button:disabled {
+  background-color: rgb(160, 197, 197);
+opacity: 0.8;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+opacity: 1;
+}
+
+.InputStyled{
+  color: black;
+  outline:1px solid aqua;
+  border-radius: 5px;
+  width: 130px;
+  height: 20px;
+}
+.InputRedStyled {
+  color: red;
+  outline:1px solid red;
+  height: 20px;
+ 
+}
+
+.InstallCounterContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.InputContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid aqua;
+  color: aqua;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.InputMaxValue,
+.InputStartValue{
+  display: flex;
+gap:5px
+}
